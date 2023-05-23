@@ -3,7 +3,7 @@ import csv
 from bs4 import BeautifulSoup
 
 # Create a session
-session = NSSession("Trade Fair Info Grabber", "1.0.0", "Sweeze", "Sweeze")
+session = NSSession("Trade Fair Info Grabber", "1.0.0", "Sweeze", input("Main nation: "))
 
 # get data from csv file
 data = []
